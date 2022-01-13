@@ -1,0 +1,72 @@
+body{
+    font-size: 14px;
+}
+.note-block {
+
+}
+.note-block__content p{
+    margin-bottom: 0.5rem;
+}
+
+.note-block__content blockquote{
+    font-size: 1.4em;
+    width:80%;
+
+    margin-left:20px;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+
+    border-left:8px solid #673ab7 ;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+}
+
+.note-block__content blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#673ab7;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+}
+
+.note-block__content blockquote::after{
+    content: '';
+}
+
+.note-block__content blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+}
+/*
+.btn-outline-dark {
+    color: #343a40;
+    border-color: transparent
+}
+
+.btn-outline-dark:hover {
+    color: #343a40;
+    background-color: transparent;
+    border-color: #343a40
+}
+.btn-outline-dark:focus, .btn-outline-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 1);
+}
+.btn-outline-dark:not(:disabled):not(.disabled):active:focus,
+.btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-dark.dropdown-toggle:focus {
+    box-shadow: inherit!important;
+}*/
+.filepond--root .filepond--credits[style] {
+    top: 0;
+    bottom: auto;
+    margin-top: 14px;
+    display: none;
+}

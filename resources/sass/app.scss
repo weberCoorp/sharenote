@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// fontawesome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+// simplemde
+// https://github.com/sparksuite/simplemde-markdown-editor
+@import '~simplemde/dist/simplemde.min.css';
+// custom
+@import "style";
